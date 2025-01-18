@@ -1,0 +1,56 @@
+[
+{
+  "name":"com.intellij.rt.execution.application.AppMainV2$Agent",
+  "methods":[{"name":"premain","parameterTypes":["java.lang.String","java.lang.instrument.Instrumentation"] }]
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"java.util.logging.LogRecord",
+  "methods":[{"name":"getLongThreadID","parameterTypes":[] }, {"name":"setLongThreadID","parameterTypes":["long"] }]
+},
+{
+  "name":"org.jboss.logmanager.CopyOnWriteMap",
+  "fields":[{"name":"map"}]
+},
+{
+  "name":"org.jboss.logmanager.ExtHandler",
+  "fields":[{"name":"handlers"}]
+},
+{
+  "name":"org.jboss.logmanager.ExtLogRecord",
+  "methods":[{"name":"setMarker","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"org.jboss.logmanager.LoggerNode",
+  "fields":[{"name":"handlers"}]
+},
+{
+  "name":"org.mariadb.jdbc.Configuration",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.mariadb.jdbc.Configuration$Builder",
+  "fields":[{"name":"password"}, {"name":"user"}]
+},
+{
+  "name":"org.mariadb.jdbc.Driver"
+},
+{
+  "name":"org.slf4j.LoggerFactory"
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
