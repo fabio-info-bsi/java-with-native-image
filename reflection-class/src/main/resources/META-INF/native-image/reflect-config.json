@@ -1,0 +1,24 @@
+[
+  {
+    "name": "br.com.fabex.utils.FileUtil",
+    "methods": [
+      {
+        "name": "isFileExist",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "br.com.fabex.utils.StringUtil",
+    "methods": [
+      {
+        "name": "stringToInt",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  }
+]

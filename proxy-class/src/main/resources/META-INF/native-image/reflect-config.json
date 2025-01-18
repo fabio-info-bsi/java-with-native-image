@@ -1,0 +1,16 @@
+[
+{
+  "name":"br.com.fabex.runtime.BusinessService",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"delete","parameterTypes":["java.lang.Long"] }, {"name":"findAll","parameterTypes":[] }]
+},
+{
+  "name":"br.com.fabex.runtime.BusinessServiceImpl",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"delete","parameterTypes":["java.lang.Long"] }, {"name":"findAll","parameterTypes":[] }]
+},
+{
+  "name":"br.com.fabex.runtime.RuntimeInvocationHandler",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Object"] }]
+}
+]

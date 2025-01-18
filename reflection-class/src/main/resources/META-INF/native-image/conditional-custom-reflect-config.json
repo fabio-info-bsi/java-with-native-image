@@ -1,0 +1,33 @@
+[
+  {
+    "name": "br.com.fabex.utils.StringUtil$InnerStringUtil",
+    "methods": [
+      {
+        "name": "byPass",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "innerByPass",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "condition": {
+      "typeReachable": "br.com.fabex.utils.StringUtil"
+    },
+    "name": "br.com.fabex.utils.StringUtil$InnerStringUtil",
+    "methods": [
+      {
+        "name": "innerByPass",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  }
+]

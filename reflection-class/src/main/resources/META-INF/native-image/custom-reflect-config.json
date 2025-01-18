@@ -1,0 +1,33 @@
+[
+  {
+    "name": "br.com.fabex.utils.StringUtil",
+    "methods": [
+      {
+        "name": "stringToLong",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ],
+    "queriedMethods" : [
+      { "name" : "neverExecuteStringToLong" }
+    ]
+  },
+  {
+    "name": "br.com.fabex.utils.StringUtil$InnerStringUtil",
+    "methods": [
+      {
+        "name": "byPass",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "innerByPass",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  }
+]
